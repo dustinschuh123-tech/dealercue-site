@@ -43,9 +43,6 @@ p{color:var(--ink2);margin:0 0 22px}
   document.getElementById('code').textContent=raw.match(/.{4}/g).join('-');
   var app='dealercue://join/'+raw;
   document.getElementById('open').href=app;
-  // Keep the code out of the address bar once it's on the page.
-  try{history.replaceState(null,'',location.pathname);}catch(e){}
-  setTimeout(function(){location.href=app;},350);
 })();
 </script>
 </body></html>
