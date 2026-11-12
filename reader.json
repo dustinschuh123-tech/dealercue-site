@@ -14,5 +14,6 @@
  ],
  "skip": [],
  "platforms": {},
+"cloudWriter": true,
 "cloudWriterStores": ["mckennabmw.com"]
 }
