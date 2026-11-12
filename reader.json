@@ -13,5 +13,6 @@
   {"match": ["m seat belts", "m seatbelts"], "line": "Even the seat belts have the M stripes woven in."}
  ],
  "skip": [],
- "platforms": {}
+ "platforms": {},
+"cloudWriterStores": ["mckennabmw.com"]
 }
